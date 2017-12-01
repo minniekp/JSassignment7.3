@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Execute after 5 seconds</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function executeafter5seconds(callbackfn){
+			setTimeout(callbackfn, 5000);
+		}
+
+		executeafter5seconds(function(){
+            alert("hi");
+		});
+
+		executeafter5seconds(function(){
+			alert("hello")
+		});
+	</script>
+
+</body>
+</html>
